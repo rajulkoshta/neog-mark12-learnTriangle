@@ -203,3 +203,12 @@ caption {
     margin: 2% 0%;
     padding: 0% 4% 3%;
 }
+
+/* hypotenuse */
+.formula-container{
+    border: 2px solid var(--primary-color);
+    border-radius: 0.3rem;
+    margin: 2% 0%;
+    padding: 0% 4% 3%;
+    text-align: center;
+}

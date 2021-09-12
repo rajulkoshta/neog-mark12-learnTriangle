@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Is Triangle</title>
+</head>
+<body>
+    <nav class="navigation container">
+        <div class="nav-brand">Fun With Triangles</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline ">
+                <a class="link" href="/">Is Triangle</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="quiz.html">Quiz</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="hypotenuse.html">Hypotenuse</a>
+            </li>
+            <li class="list-item-inline link-active">
+                <a class="link" href="area.html">Area</a>
+            </li>
+        </ul>
+    </nav>
+    <header class="hero">
+        <h1 class="hero-heading">Calculate<span class="heading-inverted"> Area</span></h1>
+    </header>
+
+
+    <section class="section">
+        <div class="container container-center">
+            <div class="formula-container">
+                <h2>Area of a triangle = 1/2(Base * Height)</h2>
+            </div>
+            <div>
+                <label for="base">Base ( in cm )</label>
+                <input type="number" class="input" id="base" name="base" required>
+            </div>
+            <div>
+                <label for="height">Height ( in cm )</label>
+                <input type="number" class="input" id="height" name="height" required>
+            </div>
+              
+              
+            <div class="btns">
+            <button class="btn btn-primary">Calculate</button>
+            <button class="btn btn-secondary">Reload</button>
+            </div>
+            <h2 id="message"></h2>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+    <ul class="list-non-bullet">
+        <li class="list-item-inline"><a class="link" href="https://github.com/rajulkoshta"><img src="/images/github.png" alt="icon"></a></li>
+        <li class="list-item-inline"><a class="link" href="https://twitter.com/RajulKoshta"><img src="/images/twitter.png" alt="icon"></a></li>
+        <li class="list-item-inline"><a class="link" href="https://www.linkedin.com/in/rajulkoshta/"><img src="/images/linkedin.png" alt="icon"></a></li>
+    </ul>
+    <p>© | 2021 | RajulKoshta</p>
+    </footer>
+
+
+    <script src="/js/area.js"></script>
+</body>
+</html>
