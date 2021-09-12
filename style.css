@@ -83,7 +83,6 @@ ul {
 .hero .hero-heading {
     text-align: center;
     color: var(--dark-grey);
-    padding-top: 1rem;
 }
 
 .hero .hero-heading .heading-inverted {
@@ -91,6 +90,9 @@ ul {
 }
 
 /* button */
+.btns{
+    text-align: center;
+}
 .btn {
     font-size: 1rem;
     font-weight: bold;
@@ -186,4 +188,18 @@ caption {
     font-size: 1.2rem;
     font-weight: bold;
     color: var(--dark-grey);
+}
+
+/* quiz */
+.quiz-form label{
+    font-size: 1rem;
+    font-weight: 300;
+    color: var(--dark-grey);
+}
+
+.ques-container{
+    border: 2px solid var(--primary-color);
+    border-radius: 0.3rem;
+    margin: 2% 0%;
+    padding: 0% 4% 3%;
 }
