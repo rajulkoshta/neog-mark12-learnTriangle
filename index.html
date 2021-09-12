@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Is Triangle</title>
+</head>
+<body>
+    <nav class="navigation container">
+        <div class="nav-brand">Fun With Triangles</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline link-active">
+                <a class="link" href="/">Is Triangle</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="quiz.html">Quiz</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="hypotenuse.html">Hypotenuse</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="area.html">Area</a>
+            </li>
+        </ul>
+    </nav>
+    <header class="hero">
+        <!-- <img class="hero-img" src="images/headerhero.svg" alt=""> -->
+        <h1 class="hero-heading">Is <span class="heading-inverted">Triangle?</span></h1>
+    </header>
+
+
+    <section class="section">
+        <div class="container container-center">
+            <div>
+                <label for="angle1">angle1 (in deg)</label>
+                <input type="number" class="input" id="angle1" name="angle1" required>
+            </div>
+            <div>
+                <label for="angle2">angle2 (in deg)</label>
+                <input type="number" class="input" id="angle2" name="angle2" required>
+            </div>
+            <div>
+                <label for="angle3">angle3 (in deg)</label>
+                <input type="number" class="input" id="angle3" name="angle3" required>
+            </div>
+            <button class="btn btn-primary">is Triangle?</button>
+            <button class="btn btn-secondary">reload</button>
+
+            <h2 id="message"></h2>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <ul class="list-non-bullet">
+        <li class="list-item-inline"><a class="link" href="https://github.com/rajulkoshta"><img src="images/github.png" alt="icon"></a></li>
+        <li class="list-item-inline"><a class="link" href="https://twitter.com/RajulKoshta"><img src="images/twitter.png" alt="icon"></a></li>
+        <li class="list-item-inline"><a class="link" href="https://www.linkedin.com/in/rajulkoshta/"><img src="images/linkedin.png" alt="icon"></a>
+        </li>
+    </ul>
+    <p>© | 2021 | RajulKoshta</p>
+</footer>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
