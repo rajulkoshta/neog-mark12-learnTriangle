@@ -66,6 +66,8 @@ ul {
 }
 
 .link-active {
+    padding-bottom: 0.7rem;
+    border-bottom: 2px solid ;
     font-weight: bold;
 }
 
