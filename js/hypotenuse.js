@@ -37,13 +37,3 @@ function refresh(){
 }
 
 
-
-hamburgerIcon.addEventListener("click",responsiveFunction);
-function responsiveFunction() {
-    var x = document.querySelector("#myNav");
-    if (x.className === "nav") {
-      x.className += " responsive";
-    } else {
-      x.className = "nav";
-    }
-  }   
