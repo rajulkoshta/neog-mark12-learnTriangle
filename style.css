@@ -66,8 +66,6 @@ ul {
 }
 
 .link-active {
-    padding-bottom: 0.7rem;
-    border-bottom: 2px solid ;
     font-weight: bold;
 }
 
@@ -213,4 +211,45 @@ caption {
     margin: 2% 0%;
     padding: 0% 4% 3%;
     text-align: center;
+}
+
+
+
+/* responsive hamburger */
+.nav .icon {
+    display: none;
+  }
+
+@media screen and (max-width: 600px) {
+    .nav li:not(:last-child) {
+        display: none;
+    }
+    .nav a.icon {
+      float: right;
+      display: block;
+      color: white;
+      position: absolute;
+      right: 3%;
+      top: 6%;
+    }
+  }
+  
+@media screen and (max-width: 600px) {
+    .nav.responsive {
+        position: relative;
+    }
+    .nav.responsive .icon {
+      position: absolute;
+      right: 0%;
+      top: 0%;
+    }
+    .nav.responsive li {
+      float: none;
+      display: block;
+      text-align: left;
+      margin:1rem;
+    }
+    .nav.responsive li :hover{
+        font-weight: bolder;
+    }
 }

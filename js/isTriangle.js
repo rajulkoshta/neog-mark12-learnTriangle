@@ -2,6 +2,7 @@ const inputAngle = document.querySelectorAll(".input");
 const isTriangle = document.querySelector(".btn-primary");
 const reload = document.querySelector(".btn-secondary");
 const message = document.querySelector("#message");
+const hamburgerIcon = document.querySelector(".icon");
 
 function cheackIsTriangle(){
     hideMessage();
@@ -35,3 +36,15 @@ function refresh(){
         message.style.display="block";
         message.innerText = msg;
     }
+
+
+
+hamburgerIcon.addEventListener("click",responsiveFunction);
+function responsiveFunction() {
+    var x = document.querySelector("#myNav");
+    if (x.className === "nav") {
+      x.className += " responsive";
+    } else {
+      x.className = "nav";
+    }
+  }    
