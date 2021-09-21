@@ -1,36 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FunWithTraingles | Hypotenuse</title>
-    <link rel="icon" type="image/png" href="images/icon.png"/>
+    <link rel="icon" type="image/png" href="/images/icon.png" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/style.css">
 </head>
+
 <body>
     <nav class="navigation container">
         <div class="nav-brand">Fun With Triangles</div>
         <div class="nav" id="myNav">
-        <ul class="list-non-bullet nav-pills">
-            <li class="list-item-inline ">
-                <a class="link" href="/">Is Triangle</a>
-            </li>
-            <li class="list-item-inline">
-                <a class="link" href="quiz.html">Quiz</a>
-            </li>
-            <li class="list-item-inline link-active">
-                <a class="link" href="hypotenuse.html">Hypotenuse</a>
-            </li>
-            <li class="list-item-inline">
-                <a class="link" href="area.html">Area</a>
-            </li>
-            <li> <a href="javascript:void(0);" class="icon">
-                <i class="fa fa-bars"></i>
-                </a>
-            </li>
-        </ul>
+            <ul class="list-non-bullet nav-pills">
+                <li class="list-item-inline ">
+                    <a class="link" href="/">Is Triangle</a>
+                </li>
+                <li class="list-item-inline">
+                    <a class="link" href="quiz.html">Quiz</a>
+                </li>
+                <li class="list-item-inline link-active">
+                    <a class="link" href="hypotenuse.html">Hypotenuse</a>
+                </li>
+                <li class="list-item-inline">
+                    <a class="link" href="area.html">Area</a>
+                </li>
+                <li> <a href="javascript:void(0);" class="icon">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </li>
+            </ul>
         </div>
     </nav>
     <header class="hero">
@@ -43,34 +45,40 @@
             <div class="formula-container">
                 <h2>Length of Hypotenuse = sqrt(a² + b²)</h2>
             </div>
-            <div>
-                <label for="side1"> a =</label>
-                <input type="number" class="input" id="side1" name="side1" required>
-            </div>
-            <div>
-                <label for="side2"> b =</label>
-                <input type="number" class="input" id="side2" name="side2" required>
-            </div>
-              
-            <div class="btns">
-            <button class="btn btn-primary">calculate</button>
-            <button class="btn btn-secondary">Reload</button>
-            </div>
+            <form>
+                <div>
+                    <label for="side1"> a =</label>
+                    <input type="number" class="input" id="side1" name="side1" min="1" required>
+                </div>
+                <div>
+                    <label for="side2"> b =</label>
+                    <input type="number" class="input" id="side2" name="side2" min="1" required>
+                </div>
+            </form>
+
+                <div class="btns">
+                    <button class="btn btn-primary">calculate</button>
+                    <button class="btn btn-secondary">Reload</button>
+                </div>
             <h2 id="message"></h2>
         </div>
     </section>
 
 
     <footer class="footer">
-    <ul class="list-non-bullet">
-        <li class="list-item-inline"><a class="link" href="https://github.com/rajulkoshta"><img src="/images/github.png" alt="icon"></a></li>
-        <li class="list-item-inline"><a class="link" href="https://twitter.com/RajulKoshta"><img src="/images/twitter.png" alt="icon"></a></li>
-        <li class="list-item-inline"><a class="link" href="https://www.linkedin.com/in/rajulkoshta/"><img src="/images/linkedin.png" alt="icon"></a></li>
-    </ul>
-    <p>© | 2021 | RajulKoshta</p>
+        <ul class="list-non-bullet">
+            <li class="list-item-inline"><a class="link" href="https://github.com/rajulkoshta"><img
+                        src="/images/github.png" alt="icon"></a></li>
+            <li class="list-item-inline"><a class="link" href="https://twitter.com/RajulKoshta"><img
+                        src="/images/twitter.png" alt="icon"></a></li>
+            <li class="list-item-inline"><a class="link" href="https://www.linkedin.com/in/rajulkoshta/"><img
+                        src="/images/linkedin.png" alt="icon"></a></li>
+        </ul>
+        <p>© | 2021 | RajulKoshta</p>
     </footer>
 
 
     <script src="/js/hypotenuse.js"></script>
 </body>
+
 </html>

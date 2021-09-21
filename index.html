@@ -1,37 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FunWithTraingles | Is Triangle</title>
-    <link rel="icon" type="image/png" href="images/icon.png"/>
+    <link rel="icon" type="image/png" href="images/icon.png" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <nav class="navigation container">
         <div class="nav-brand">Fun With Triangles</div>
         <div class="nav" id="myNav">
-         <ul class="list-non-bullet nav-pills">
-            <li class="list-item-inline link-active">
-                <a class="link" href="/">Is Triangle</a>
-            </li>
-            <li class="list-item-inline">
-                <a class="link" href="htmls/quiz.html">Quiz</a>
-            </li>
-            <li class="list-item-inline">
-                <a class="link" href="htmls/hypotenuse.html">Hypotenuse</a>
-            </li>
-            <li class="list-item-inline">
-                <a class="link" href="htmls/area.html">Area</a>
-            </li>
-            <li> <a href="javascript:void(0);" class="icon">
-                <i class="fa fa-bars"></i>
-                </a>
-            </li>
-        </ul>
-    </div>
+            <ul class="list-non-bullet nav-pills">
+                <li class="list-item-inline link-active">
+                    <a class="link" href="/">Is Triangle</a>
+                </li>
+                <li class="list-item-inline">
+                    <a class="link" href="htmls/quiz.html">Quiz</a>
+                </li>
+                <li class="list-item-inline">
+                    <a class="link" href="htmls/hypotenuse.html">Hypotenuse</a>
+                </li>
+                <li class="list-item-inline">
+                    <a class="link" href="htmls/area.html">Area</a>
+                </li>
+                <li> <a href="javascript:void(0);" class="icon">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
     </nav>
     <header class="hero">
         <!-- <img class="hero-img" src="images/headerhero.svg" alt=""> -->
@@ -41,23 +43,25 @@
 
     <section class="section">
         <div class="container container-center">
-            <div>
-                <label for="angle1">angle1 (in deg)</label>
-                <input type="number" class="input" name="angle1" required>
-            </div>
-            <div>
-                <label for="angle2">angle2 (in deg)</label>
-                <input type="number" class="input" name="angle2" required>
-            </div>
-            <div>
-                <label for="angle3">angle3 (in deg)</label>
-                <input type="number" class="input" name="angle3" required>
-            </div>
+            <form>
+                <div>
+                    <label for="angle1">angle1 (in deg)</label>
+                    <input type="number" class="input" name="angle1" min="1" required>
+                </div>
+                <div>
+                    <label for="angle2">angle2 (in deg)</label>
+                    <input type="number" class="input" name="angle2" min="1" required>
+                </div>
+                <div>
+                    <label for="angle3">angle3 (in deg)</label>
+                    <input type="number" class="input" name="angle3" min="1" required>
+                </div>
+            </form>
 
-            <div class="btns">
-            <button class="btn btn-primary">is Triangle?</button>
-            <button class="btn btn-secondary">reload</button>
-            </div>
+                <div class="btns">
+                    <button class="btn btn-primary">is Triangle?</button>
+                    <button class="btn btn-secondary">reload</button>
+                </div>
             <h2 id="message"></h2>
         </div>
     </section>
@@ -65,15 +69,19 @@
 
     <footer class="footer">
         <ul class="list-non-bullet">
-        <li class="list-item-inline"><a class="link" href="https://github.com/rajulkoshta"><img src="images/github.png" alt="icon"></a></li>
-        <li class="list-item-inline"><a class="link" href="https://twitter.com/RajulKoshta"><img src="images/twitter.png" alt="icon"></a></li>
-        <li class="list-item-inline"><a class="link" href="https://www.linkedin.com/in/rajulkoshta/"><img src="images/linkedin.png" alt="icon"></a>
-        </li>
-    </ul>
-    <p>© | 2021 | RajulKoshta</p>
-</footer>
+            <li class="list-item-inline"><a class="link" href="https://github.com/rajulkoshta"><img
+                        src="images/github.png" alt="icon"></a></li>
+            <li class="list-item-inline"><a class="link" href="https://twitter.com/RajulKoshta"><img
+                        src="images/twitter.png" alt="icon"></a></li>
+            <li class="list-item-inline"><a class="link" href="https://www.linkedin.com/in/rajulkoshta/"><img
+                        src="images/linkedin.png" alt="icon"></a>
+            </li>
+        </ul>
+        <p>© | 2021 | RajulKoshta</p>
+    </footer>
 
 
     <script src="js/isTriangle.js"></script>
 </body>
+
 </html>

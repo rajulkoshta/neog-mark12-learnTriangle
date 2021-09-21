@@ -2,6 +2,7 @@ const quizForm = document.querySelector(".quiz-form");
 const submitBtn = document.querySelector(".btn-primary");
 const reloadBtn = document.querySelector(".btn-secondary");
 const message = document.querySelector("#message");
+const hamburgerIcon = document.querySelector(".icon");
 
 const correctAnswers = ["90°", "rightangled", "onerightangles", "121620", "equilateraltriangle"];
 
