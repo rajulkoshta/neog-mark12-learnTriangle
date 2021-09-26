@@ -15,7 +15,11 @@ function cheackIsTriangle() {
         const sum = calculateSumOfAngles(angle1, angle2, angle3);
         if (sum === 180) {
             showMessage("Ohh yayy, the angles form the triangle.");
-        } else {
+        } 
+        else if(sum > 180){
+            showMessage("Traingles are formed when sum of all three angles is 180 not beyond that!")
+        }
+        else {
             showMessage("uuff, the angles does not form the triangle.")
         }
     }
