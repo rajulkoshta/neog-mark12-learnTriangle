@@ -17,7 +17,7 @@ function cheackIsTriangle() {
             showMessage("Ohh yayy, the angles form the triangle.");
         } 
         else if(sum > 180){
-            showMessage("Traingles are formed when sum of all three angles is 180 not beyond that!")
+            showMessage("Traingles are formed when sum of all three angles is 180 not beyond that!!")
         }
         else {
             showMessage("uuff, the angles does not form the triangle.")
