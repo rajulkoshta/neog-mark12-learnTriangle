@@ -17,7 +17,7 @@ function calculateHypotenuse() {
         if (LenOfHypo === "") {
             showMessage("invalid sides");
         } else {
-            showMessage("length of hypotenuse is : " + LenOfHypo);
+            showMessage("length of hypotenuse is : " + LenOfHypo.toFixed(2));
         }
     }
 }

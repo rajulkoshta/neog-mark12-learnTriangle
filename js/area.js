@@ -18,7 +18,7 @@ function calculateAreaOfTriangle() {
         if (area === "") {
             showMessage("invalid input");
         } else {
-            showMessage("Area of triangle is : " + area);
+            showMessage("Area of triangle is : " + area.toFixed(2));
         }
     }
 }
